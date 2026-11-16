@@ -1,24 +1,12 @@
 # Sabbir Ahmed — Minimal Light Portfolio
 
-A responsive, minimal-light portfolio for GitHub Pages.
+A responsive white, grey and black portfolio for GitHub Pages. The homepage includes the supplied portrait at `assets/sabbir-ahmed.jpg`.
 
 ## Publish
-
-1. Download and extract this ZIP.
-2. Open the repository: https://github.com/SabbirAhmed-cys/SabbirAhmed-cys.github.io
+1. Extract this ZIP.
+2. Open https://github.com/SabbirAhmed-cys/SabbirAhmed-cys.github.io
 3. Choose **Add file → Upload files**.
-4. Upload the contents of this folder to the repository root, replacing `index.html`, `style.css`, and `script.js` when prompted.
-5. Commit the changes to the `main` branch.
-6. Wait for GitHub Pages to finish deploying, then refresh https://sabbirahmed-cys.github.io/.
+4. Upload the contents of this folder (including the `assets` folder) to the repository root.
+5. Commit to the `main` branch. GitHub Pages will deploy the update.
 
-## Files
-
-- `index.html` — page content, metadata and structured data
-- `style.css` — responsive minimal-light design
-- `script.js` — mobile navigation and current-year footer
-- `assets/favicon.svg` — existing site favicon
-- `robots.txt` and `sitemap.xml` — search discovery
-
-## Personal information
-
-Existing portfolio facts and links have been retained. Review them before publishing and only add information that is accurate. The site describes Sabbir as a student and aspiring Red Team Engineer, not as a certified or experienced professional.
+The existing public profile and project links have been retained. Check all personal details before publishing.
