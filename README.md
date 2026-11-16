@@ -1,36 +1,27 @@
-# Sabbir Ahmed — Personal Website
+# Sabbir Ahmed — Professional Red-Team Portfolio
 
-A responsive, dark personal website starter with links to GitHub, LinkedIn and Instagram, plus basic SEO metadata and structured data.
+Responsive dark graphite + crimson portfolio for GitHub Pages.
 
-## Before publishing
+## Upload
+1. Open `https://github.com/SabbirAhmed-cys/SabbirAhmed-cys.github.io`.
+2. Choose **Add file → Upload files**.
+3. Extract this ZIP on your computer first.
+4. Upload the contents of the extracted folder into the repository root (not the ZIP or outer folder).
+5. Commit changes and wait for GitHub Pages to deploy.
 
-1. Check that your GitHub Pages address will be `https://sabbirahmed-cys.github.io/`.
-2. If GitHub gives you a different URL, replace every occurrence of `https://sabbirahmed-cys.github.io/` in `index.html`, `robots.txt`, and `sitemap.xml`.
-3. Optional: add your own profile photo. Replace the initials block in `index.html` with:
-   ```html
-   <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Sabbir Ahmed">
-   ```
-   Then add `assets/profile.jpg`. Add styling for `.profile-photo` in `style.css`:
-   ```css
-   .profile-photo { width:100%; height:100%; object-fit:cover; }
-   ```
-   Only use a photo you are comfortable making public.
-4. Update the bio and interests so every statement accurately describes you.
+## Files
+- `index.html` — content, SEO metadata and Person structured data
+- `style.css` — responsive design and custom cursor visuals
+- `script.js` — cursor selector, mobile navigation and reveal animations
+- `robots.txt`, `sitemap.xml` — search-engine discovery
+- `assets/favicon.svg` — favicon
 
-## Publish with GitHub Pages
+## Personalise
+- Review all text for accuracy. The site describes you as an aspiring red-team engineer and learner, not as a certified or experienced professional.
+- The Handwritten Digit Recognition project links to your GitHub repository.
+- Add a public profile photo only if you want one; it is not required.
+- Do not publish private contact details, passwords, API keys or tokens.
+- The cursor selector offers Dot, Ring, Glow, Trail and System. It automatically falls back to the system cursor on touch devices and respects reduced-motion settings.
 
-1. On GitHub, create a **public** repository named exactly `SabbirAhmed-cys.github.io`.
-2. Upload all files and folders from this project to the repository root (not the ZIP itself).
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
-5. Wait for the Pages deployment to finish. Open `https://sabbirahmed-cys.github.io/`.
-
-## Google visibility
-
-1. Add the published site to Google Search Console and complete ownership verification.
-2. Submit `https://sabbirahmed-cys.github.io/sitemap.xml`.
-3. Use URL Inspection for the homepage and request indexing.
-4. Keep the same name, short bio, and profile links consistent across your public profiles.
-5. Add real project descriptions to GitHub and link the website from your GitHub profile and LinkedIn.
-
-Google decides independently whether and when to index pages and what to display. No SEO setup guarantees a first-place result or a Knowledge Panel.
+## Sitemap
+Submit `sitemap.xml` in Google Search Console for `https://sabbirahmed-cys.github.io/`. Google controls indexing and ranking; neither is guaranteed.
