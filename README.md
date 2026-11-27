@@ -1,45 +1,54 @@
-# Sabbir Ahmed — Cybersecurity Portfolio
+# Sabbir Ahmed — Cybersecurity Portfolio v2.0
 
-A responsive personal portfolio for GitHub Pages. Built with HTML, CSS and vanilla JavaScript.
+A responsive, dark hybrid-engineer portfolio for GitHub Pages.
+
+## Files
+
+```text
+.
+├── index.html
+├── style.css
+├── script.js
+├── favicon.svg
+├── README.md
+└── assets/
+    └── sabbir-ahmed.jpg   # keep your existing portrait here
+```
+
+## Update your profile photo
+
+The page expects your portrait at:
+
+`assets/sabbir-ahmed.jpg`
+
+Your existing repository README identifies this as the current portrait path. Keep the filename and location unchanged, or update the `src` in `index.html`.
+
+## Personal details to verify
+
+Before publishing, verify:
+- Email: `novanamigo@gmail.com`
+- GitHub: `SabbirAhmed-cys`
+- LinkedIn: `https://www.linkedin.com/in/sabbirahmed549460405/`
+- Instagram: `https://www.instagram.com/sabbir_ahmed.9/`
+
+The projects and learning roadmap distinguish completed work from in-progress and planned work. Update those labels as your work changes. Do not list a certification until it has actually been earned.
 
 ## Preview locally
 
-No build tools or package installation are required.
+Open `index.html` in a browser, or use VS Code Live Server.
 
-1. Download or clone this repository.
-2. Open `index.html` in a browser.
+No build tools or package installation are required. GitHub profile statistics use the public GitHub API and gracefully fall back if the API is unavailable.
 
-For a local development server, you can use the VS Code Live Server extension or run:
+## Publish to the existing GitHub Pages repository
 
-```bash
-python -m http.server 8000
-```
+1. Back up or download your current repository.
+2. Upload/replace `index.html`, `style.css`, `script.js`, and `favicon.svg` in the repository root.
+3. Keep your existing `assets/sabbir-ahmed.jpg` file in the `assets/` folder.
+4. Commit the changes to the branch currently used by GitHub Pages (usually `main`).
+5. Wait for the Pages deployment to finish, then refresh your live site.
 
-Then visit `http://localhost:8000`.
+This is a static HTML/CSS/JavaScript site; no workflow or Pages configuration change should be needed if the existing site already deploys from the repository root.
 
-## Deploy to GitHub Pages
+## Responsible security practice
 
-1. Put the contents of this folder in the root of `SabbirAhmed-cys.github.io`.
-2. Commit and push to the `main` branch.
-3. In GitHub, open **Settings → Pages**.
-4. Set the source to **Deploy from a branch**, choose `main` and `/ (root)`.
-5. Save and wait for the deployment to finish.
-
-Your site should be available at `https://sabbirahmed-cys.github.io/`.
-
-## Before publishing
-
-- Verify the LinkedIn URL and project repository links in `index.html`.
-- Add a professional email address only if you want it public.
-- Update the project descriptions as your work evolves.
-- Only list tools, skills, certificates and experience you can accurately describe.
-
-## Features
-
-- Responsive layout and mobile navigation
-- Animated terminal text
-- Project category filters
-- Scroll reveal effects
-- Custom cursor for fine-pointer devices
-- Reduced-motion and touch-device fallbacks
-- SEO and social preview metadata
+All security learning and testing should stay within systems you own or have explicit permission to assess, including training labs and CTF environments.
